@@ -5,12 +5,12 @@
     "precio": "Bs 50",
     "categoria": "MDF",
     "disponible": true,
-    "imagen": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=500",
+    "imagen": "./img/CAJA-DE-AHORRO.jpg",
     "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3YwZzM0ZzBwY2dtYm14bndpNXN5YmJrZGR6NTh6eG90NWhpNHZyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7E4F7df9R0Gsh7vG/giphy.gif",
-    "descripcion": "Mantén tu espacio de trabajo impecable. Este organizador cuenta con múltiples compartimentos para bolígrafos y notas.",
+    "descripcion": "Ahorra de una manera diferente donde tu defines tu meta, ahorra desde 5bs hasta 100bs, tu elijes cuando y cuanto.",
     "imagenes_extra": [
-      "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?w=150",
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?w=150"
+      "./img/cajaAhorro2.jpg",
+      "./img/CajaAhorro3.jpg"
     ]
   },
   {
@@ -19,11 +19,12 @@
     "precio": "Bs 50",
     "categoria": "MDF",
     "disponible": true,
-    "imagen": "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=500",
+    "imagen": "./img/CajaFuerte1.webp",
     "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2Z5dnd0YmxlZXg0Y3I4bnd6M3R5N3ZjdjFmdXpndWtlYTN2bTdzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlIDvT81STQFE7m/giphy.gif",
-"descripcion": "Mantén tu espacio de trabajo impecable. Este organizador cuenta con múltiples compartimentos para bolígrafos y notas.",
+"descripcion": "Ahora ahorrar se convierte en algo divertido con esta caja totalmente funcional con combinacion, para ti, tus niños o como regalo.",
     "imagenes_extra": [
-      "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?w=150"
+      "./img/CajaFuerte2.webp",
+      "./img/CajaFuerte3.webp"
     ]
   },
   {
@@ -32,10 +33,13 @@
     "precio": "Bs 50",
     "categoria": "MDF",
     "disponible": true,
-    "imagen": "https://images.unsplash.com/photo-1608564697171-20e1370731d2?w=500",
+    "imagen": "./img/CajaFuerte1.webp",
     "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmszbzA0ZHByYm50NmN6Y3YwYm9paXpsbmd5NTh6ZzVpY2Z6eW9pOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d3mlE7uhX8KFgEmY/giphy.gif",
-"descripcion": "Mantén tu espacio de trabajo impecable. Este organizador cuenta con múltiples compartimentos para bolígrafos y notas.",
-    "imagenes_extra": []
+"descripcion": "Nueva caja fuerte, Ahora ahorrar se convierte en algo divertido con esta caja totalmente funcional con combinacion, para ti, tus niños o como regalo.",
+    "imagenes_extra": [
+      "./img/CajaFuerte2.webp",
+      "./img/CajaFuerte3.webp"
+]
   },
   {
     "id": 4,
@@ -43,23 +47,26 @@
     "precio": "Bs 45",
     "categoria": "MDF",
     "disponible": true,
-    "imagen": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=500",
+    "imagen": "./img/CarruselDeFotos1.webp",
     "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3YwZzM0ZzBwY2dtYm14bndpNXN5YmJrZGR6NTh6eG90NWhpNHZyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7E4F7df9R0Gsh7vG/giphy.gif",
-"descripcion": "Mantén tu espacio de trabajo impecable. Este organizador cuenta con múltiples compartimentos para bolígrafos y notas.",
+"descripcion": "Sorprende a tu pareja o pariente con este regalo, recuerda que esta es una base para dar el siguiente paso a tu imaginacion en la creatividad del carrusel.",
     "imagenes_extra": [
-      "https://images.unsplash.com/photo-1517705008128-361805f42e86?w=150"
+      "./img/CarruselDeFotos2.webp",
+      "./img/CarruselDeFotos3.webp"
     ]
   },
   {
     "id": 5,
-    "titulo": "DISPENSADOR DE CIGARRO",
+    "titulo": "DISPENSADOR DE CIGARRO CON ESTILO GANADERO",
     "precio": "Bs 45",
     "categoria": "MDF",
     "disponible": true,
-    "imagen": "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=500",
+    "imagen": "./img/DispensadorCigarro1.webp",
     "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5dnd0YmxlZXg0Y3I4bnd6M3R5N3ZjdjFmdXpndWtlYTN2bTdzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlIDvT81STQFE7m/giphy.gif",
-"descripcion": "Mantén tu espacio de trabajo impecable. Este organizador cuenta con múltiples compartimentos para bolígrafos y notas.",
-    "imagenes_extra": []
+"descripcion": "Necesitas un regalo ideal para aquella persona que desgustos entiende, llevatelo es perfecto, dispensa cigarros de forma elegante.",
+    "imagenes_extra": [
+"./img/DispensadorCigarro2.webp"
+]
   },
   {
     "id": 6,
@@ -67,8 +74,72 @@
     "precio": "Bs 20",
     "categoria": "Impresion 3D",
     "disponible": true,
-    "imagen": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500",
+    "imagen": "./img/SoporteCelular6.webp",
     "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbmszbzA0ZHByYm50NmN6Y3YwYm9paXpsbmd5NTh6ZzVpY2Z6eW9pOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d3mlE7uhX8KFgEmY/giphy.gif",
-    "imagenes_extra": []
+"descripcion": "Necesitas tener el Celular a la vista, esto es necesario para tener y ver que te llegan las notificaciones, soporte para celular con diferentes angulos de vision.",
+    "imagenes_extra": [
+"./img/SoporteCelular1.webp",
+"./img/SoporteCelular2.webp",
+"./img/SoporteCelular3.webp",
+"./img/SoporteCelular4.webp",
+"./img/SoporteCelular5.webp"
+]
+  },
+{
+    "id": 7,
+    "titulo": "SOPORTE PARA VINOS ADORNO MANO",
+    "precio": "Bs 120",
+    "categoria": "Impresion 3D",
+    "disponible": true,
+    "imagen": "./img/ManoParaVino1.webp",
+    "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5dnd0YmxlZXg0Y3I4bnd6M3R5N3ZjdjFmdXpndWtlYTN2bTdzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlIDvT81STQFE7m/giphy.gif",
+"descripcion": "Eres amante de lo moderno, es ideal para ti, dale ese toque a tu centro de mesa con este soporte para vinos.",
+    "imagenes_extra": [
+"./img/ManoParaVino2.webp",
+"./img/ManoParaVino3.webp"
+]
+  },
+{
+    "id": 8,
+    "titulo": "DISPENSADOR DE MONDADIENTES",
+    "precio": "Bs 50",
+    "categoria": "Impresion 3D",
+    "disponible": true,
+    "imagen": "./img/DispensadorPalillos1.webp",
+    "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5dnd0YmxlZXg0Y3I4bnd6M3R5N3ZjdjFmdXpndWtlYTN2bTdzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlIDvT81STQFE7m/giphy.gif",
+"descripcion": "Lo necesitas, despues de cada comida este dispensador de MONDADIENTES te entrega lo necesario, no dudes en consultar, puedes elegir los colores.",
+    "imagenes_extra": [
+"./img/DispensadorPalillos2.webp",
+"./img/DispensadorPalillos3.webp"
+]
+  },
+{
+    "id": 9,
+    "titulo": "DISPENSADOR DE CIGARRO ELEGANTE",
+    "precio": "Bs 45",
+    "categoria": "MDF",
+    "disponible": true,
+    "imagen": "./img/DispensadorCigarroPlatudo1.webp",
+    "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5dnd0YmxlZXg0Y3I4bnd6M3R5N3ZjdjFmdXpndWtlYTN2bTdzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlIDvT81STQFE7m/giphy.gif",
+"descripcion": "Necesitas un regalo ideal para aquella persona que desgustos entiende, llevatelo es perfecto, dispensa cigarros de forma elegante.",
+    "imagenes_extra": [
+"./img/DispensadorCigarroPlatudo2.webp"
+]
+  },
+{
+    "id": 10,
+    "titulo": "DISPENSADOR DE CIGARRO ESTILO AVICOLA",
+    "precio": "Bs 45",
+    "categoria": "MDF",
+    "disponible": true,
+    "imagen": "./img/DispensadorCigarroAvicola1.webp",
+    "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3Z5dnd0YmxlZXg0Y3I4bnd6M3R5N3ZjdjFmdXpndWtlYTN2bTdzOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l0HlIDvT81STQFE7m/giphy.gif",
+"descripcion": "Para ese amigo Avicola es el regalo perfecto, dispensador de cigarros, no dudes en consultar.",
+    "imagenes_extra": [
+"./img/DispensadorCigarroAvicola2.webp"
+]
   }
+
+
+
 ]
