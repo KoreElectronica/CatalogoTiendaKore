@@ -93,7 +93,7 @@ document.addEventListener("DOMContentLoaded", () => {
                             <button class="btn-saber-mas" data-id="${prod.id}">
                                 <i class="fas fa-info-circle"></i> Saber más
                             </button>
-                            <a href="https://wa.me/59112345678?text=Hola!%20Me%20interesa%20el%20producto:%20${encodeURIComponent(prod.titulo)}" 
+                            <a href="https://wa.me/59176892254?text=Hola!%20Me%20interesa%20el%20producto:%20${encodeURIComponent(prod.titulo)}" 
                                target="_blank" class="btn-whatsapp">
                                 <i class="fab fa-whatsapp"></i> Pedir
                             </a>
