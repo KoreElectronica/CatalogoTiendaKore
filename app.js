@@ -127,22 +127,42 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("modal-titulo").innerText = prod.titulo;
         document.getElementById("modal-precio").innerText = prod.precio;
         document.getElementById("modal-descripcion").innerText = prod.descripcion || "Sin descripción disponible.";
+        
+        // Al abrir, la imagen grande por defecto será la foto principal
         document.getElementById("modal-img-principal").src = prod.imagen;
+        
         document.getElementById("modal-whatsapp").href = `https://wa.me/59112345678?text=Hola!%20Vengo%20de%20ver%20los%20detalles%20de:%20${encodeURIComponent(prod.titulo)}`;
 
         const galeria = document.getElementById("modal-galeria");
-        galeria.innerHTML = ""; 
+        galeria.innerHTML = ""; // Limpiamos miniaturas anteriores
 
+        // Miniatura 1: Imagen Principal
         const imgPrincipalThumb = document.createElement("img");
         imgPrincipalThumb.src = prod.imagen;
-        imgPrincipalThumb.addEventListener("click", () => document.getElementById("modal-img-principal").src = prod.imagen);
+        imgPrincipalThumb.addEventListener("click", () => {
+            document.getElementById("modal-img-principal").src = prod.imagen;
+        });
         galeria.appendChild(imgPrincipalThumb);
 
+        // Miniatura 2: ¡EL GIF ANIMADO! (Se añade automáticamente aquí)
+        if (prod.gif) {
+            const gifThumb = document.createElement("img");
+            gifThumb.src = prod.gif;
+            gifThumb.classList.add("thumb-gif"); // Clase opcional por si quieres darle un borde especial
+            gifThumb.addEventListener("click", () => {
+                document.getElementById("modal-img-principal").src = prod.gif;
+            });
+            galeria.appendChild(gifThumb);
+        }
+
+        // Miniaturas de la 3 en adelante: Imágenes extras del JSON (si existen)
         if(prod.imagenes_extra && prod.imagenes_extra.length > 0) {
             prod.imagenes_extra.forEach(url => {
                 const imgThumb = document.createElement("img");
                 imgThumb.src = url;
-                imgThumb.addEventListener("click", () => document.getElementById("modal-img-principal").src = url);
+                imgThumb.addEventListener("click", () => {
+                    document.getElementById("modal-img-principal").src = url;
+                });
                 galeria.appendChild(imgThumb);
             });
         }
