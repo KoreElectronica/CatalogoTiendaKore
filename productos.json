@@ -6,7 +6,7 @@
     "categoria": "MDF",
     "disponible": true,
     "imagen": "./img/CAJA-DE-AHORRO.jpg",
-    "gif": "https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3YwZzM0ZzBwY2dtYm14bndpNXN5YmJrZGR6NTh6eG90NWhpNHZyeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7E4F7df9R0Gsh7vG/giphy.gif",
+    "gif": "./img/CAJA-AHORRADORA.gif",
     "descripcion": "Ahorra de una manera diferente donde tu defines tu meta, ahorra desde 5bs hasta 100bs, tu elijes cuando y cuanto.",
     "imagenes_extra": [
       "./img/cajaAhorro2.jpg",
