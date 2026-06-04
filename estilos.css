@@ -34,12 +34,21 @@ header {
 }
 
 header .logo {
-    font-size: 24px;
-    font-weight: 800;
-    letter-spacing: 1px;
+    display: flex;         /* <-- Añade esto para poner el icono y el texto en fila */
+    align-items: baseline;   /* <-- Añade esto para centrarlos verticalmente */
+    gap: 12px;             /* <-- Añade esto para dejar una separación elegante */
+    font-size: 24px;       /* Mantienes tus estilos originales */
+    font-weight: 800;      /* Mantienes tus estilos originales */
+    letter-spacing: 1px;   /* Mantienes tus estilos originales */
+}
+header .logo img {
+    height: 38px;          /* Controla la altura ideal para tu menú */
+    width: auto;           /* Mantiene la proporción para que no se deforme */
 }
 
-header .logo span { color: var(--color-acento); }
+header .logo span { color: var(--color-acento); 
+                    font-family: 'Courier New', Courier, monospace;
+}
 
 nav a {
     text-decoration: none;
@@ -218,13 +227,14 @@ main h2 { text-align: center; margin-bottom: 30px; }
     background-color: var(--color-whatsapp);
     color: white;
     text-decoration: none;
-    padding: 12px;
+    padding: 14px;
     border-radius: 10px;
     font-weight: bold;
+     font-size: 19px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 12px;
     transition: background 0.3s;
 }
 
@@ -235,15 +245,15 @@ main h2 { text-align: center; margin-bottom: 30px; }
     background-color: #333;
     color: #fff;
     border: none;
-    padding: 10px;
+    padding: 12px;
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    font-size: 14px;
+    gap: 10x;
+    font-size: 17px;
     transition: background 0.3s;
 }
 .btn-saber-mas:hover { background-color: var(--color-acento); }
